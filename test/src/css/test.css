@@ -1,0 +1,16 @@
+#banner {
+    font-size: 50px;
+    color: black;
+    background-color: limegreen;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-top: 0px
+}
+
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+}
