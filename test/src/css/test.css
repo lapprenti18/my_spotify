@@ -1,10 +1,26 @@
-#banner {
+.banner {
     font-size: 50px;
-    color: black;
-    background-color: limegreen;
+    color: #314C5F;
+    /* background-color: #3EB883; */
     padding-top: 25px;
     padding-bottom: 25px;
-    margin-top: 0px
+    margin-top: 0px;
+    color: #2c3e50;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
 }
 
 #app {
@@ -12,5 +28,10 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
-    color: #2c3e50;
+    color: black;
+    background: linear-gradient(to bottom, #3EB883, #2c3e50);
+    height: 100vh;
+    width: 100;
+    /* background-color: #565f6b; */
+
 }

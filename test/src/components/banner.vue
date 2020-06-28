@@ -1,5 +1,5 @@
 <template>
-  <h1 id="banner">My_spotify</h1>
+  <h1 class="banner">My_spotify</h1>
 </template>
 
 <!--<style>
