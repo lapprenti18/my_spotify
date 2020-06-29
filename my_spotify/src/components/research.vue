@@ -40,7 +40,7 @@
         this.display_player = false;
 
         axios
-          .get(`https://www.googleapis.com/youtube/v3/search?part=snippet&type=video&maxResults=10&q=${search}&key=AIzaSyBDbLNMptBQIMlBByJMs2rw3btMyd54Qtc`)
+          .get(`https://www.googleapis.com/youtube/v3/search?part=snippet&type=video&maxResults=10&q=${search}&key=/* Put your key here*/`)
           .then((response) => { 
             for (let i = 0 ; i < response.data.items.length; i += 1)
               this.array.push(response.data.items[i]);
